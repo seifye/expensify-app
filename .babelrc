@@ -1,0 +1,17 @@
+// This is a JSON file.
+
+// react preset is used to convert JSX to ES5
+// env preset is used to convert ES6 to ES5
+// transform-class-properties plugin is used to compile new class properties syntax to meet the standard behaviour 
+// transform-object-rest-spread is used to compile the spreading objects in ES6
+
+{
+    "presets": [
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ]
+}

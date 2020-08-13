@@ -1,0 +1,7 @@
+// import partial scss files => use (we can ignore the underscore and the extension)
+
+// This should come first to ensure applying the required styling
+@import './base/settings';
+@import './base/base';
+
+
